@@ -5,9 +5,11 @@ import static java.lang.System.*;
  */
 public class Chat {
     public static void main (String[] args){
-        out.println("Hello World!");
+        out.println("Введите Своё Имя:");
         String a = Met.userSays();
-        out.println("Hi, "+a);
+        out.println("Привет, "+a+". Введите ваше приветствие");
+        String b = Met.userSays();
+        out.println("Пользователь "+a+" говорит: "+b);
     }
 
 }
